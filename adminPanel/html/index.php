@@ -10,7 +10,7 @@ include('header.php');
 
         <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
           <div class="app-brand demo">
-            <a href="index.html" class="app-brand-link">
+            <a href="index.php" class="app-brand-link">
               <span class="app-brand-logo demo">
                 <svg
                   width="25"
@@ -79,7 +79,7 @@ include('header.php');
           <ul class="menu-inner py-1">
             <!-- Dashboard -->
             <li class="menu-item active">
-              <a href="index.html" class="menu-link">
+              <a href="index.php" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">Dashboard</div>
               </a>
@@ -94,27 +94,27 @@ include('header.php');
 
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="layouts-without-menu.html" class="menu-link">
+                  <a href="layouts-without-menu.php" class="menu-link">
                     <div data-i18n="Without menu">Without menu</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="layouts-without-navbar.html" class="menu-link">
+                  <a href="layouts-without-navbar.php" class="menu-link">
                     <div data-i18n="Without navbar">Without navbar</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="layouts-container.html" class="menu-link">
+                  <a href="layouts-container.php" class="menu-link">
                     <div data-i18n="Container">Container</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="layouts-fluid.html" class="menu-link">
+                  <a href="layouts-fluid.php" class="menu-link">
                     <div data-i18n="Fluid">Fluid</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="layouts-blank.html" class="menu-link">
+                  <a href="layouts-blank.php" class="menu-link">
                     <div data-i18n="Blank">Blank</div>
                   </a>
                 </li>
@@ -131,17 +131,17 @@ include('header.php');
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="pages-account-settings-account.html" class="menu-link">
+                  <a href="pages-account-settings-account.php" class="menu-link">
                     <div data-i18n="Account">Account</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="pages-account-settings-notifications.html" class="menu-link">
+                  <a href="pages-account-settings-notifications.php" class="menu-link">
                     <div data-i18n="Notifications">Notifications</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="pages-account-settings-connections.html" class="menu-link">
+                  <a href="pages-account-settings-connections.php" class="menu-link">
                     <div data-i18n="Connections">Connections</div>
                   </a>
                 </li>
@@ -154,17 +154,17 @@ include('header.php');
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="auth-login-basic.html" class="menu-link" target="_blank">
+                  <a href="auth-login-basic.php" class="menu-link" target="_blank">
                     <div data-i18n="Basic">Login</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="auth-register-basic.html" class="menu-link" target="_blank">
+                  <a href="auth-register-basic.php" class="menu-link" target="_blank">
                     <div data-i18n="Basic">Register</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="auth-forgot-password-basic.html" class="menu-link" target="_blank">
+                  <a href="auth-forgot-password-basic.php" class="menu-link" target="_blank">
                     <div data-i18n="Basic">Forgot Password</div>
                   </a>
                 </li>
@@ -177,12 +177,12 @@ include('header.php');
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="pages-misc-error.html" class="menu-link">
+                  <a href="pages-misc-error.php" class="menu-link">
                     <div data-i18n="Error">Error</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="pages-misc-under-maintenance.html" class="menu-link">
+                  <a href="pages-misc-under-maintenance.php" class="menu-link">
                     <div data-i18n="Under Maintenance">Under Maintenance</div>
                   </a>
                 </li>
@@ -192,7 +192,7 @@ include('header.php');
             <li class="menu-header small text-uppercase"><span class="menu-header-text">Components</span></li>
             <!-- Cards -->
             <li class="menu-item">
-              <a href="cards-basic.html" class="menu-link">
+              <a href="cards-basic.php" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-collection"></i>
                 <div data-i18n="Basic">Cards</div>
               </a>
@@ -205,97 +205,97 @@ include('header.php');
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="ui-accordion.html" class="menu-link">
+                  <a href="ui-accordion.php" class="menu-link">
                     <div data-i18n="Accordion">Accordion</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="ui-alerts.html" class="menu-link">
+                  <a href="ui-alerts.php" class="menu-link">
                     <div data-i18n="Alerts">Alerts</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="ui-badges.html" class="menu-link">
+                  <a href="ui-badges.php" class="menu-link">
                     <div data-i18n="Badges">Badges</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="ui-buttons.html" class="menu-link">
+                  <a href="ui-buttons.php" class="menu-link">
                     <div data-i18n="Buttons">Buttons</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="ui-carousel.html" class="menu-link">
+                  <a href="ui-carousel.php" class="menu-link">
                     <div data-i18n="Carousel">Carousel</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="ui-collapse.html" class="menu-link">
+                  <a href="ui-collapse.php" class="menu-link">
                     <div data-i18n="Collapse">Collapse</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="ui-dropdowns.html" class="menu-link">
+                  <a href="ui-dropdowns.php" class="menu-link">
                     <div data-i18n="Dropdowns">Dropdowns</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="ui-footer.html" class="menu-link">
+                  <a href="ui-footer.php" class="menu-link">
                     <div data-i18n="Footer">Footer</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="ui-list-groups.html" class="menu-link">
+                  <a href="ui-list-groups.php" class="menu-link">
                     <div data-i18n="List Groups">List groups</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="ui-modals.html" class="menu-link">
+                  <a href="ui-modals.php" class="menu-link">
                     <div data-i18n="Modals">Modals</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="ui-navbar.html" class="menu-link">
+                  <a href="ui-navbar.php" class="menu-link">
                     <div data-i18n="Navbar">Navbar</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="ui-offcanvas.html" class="menu-link">
+                  <a href="ui-offcanvas.php" class="menu-link">
                     <div data-i18n="Offcanvas">Offcanvas</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="ui-pagination-breadcrumbs.html" class="menu-link">
+                  <a href="ui-pagination-breadcrumbs.php" class="menu-link">
                     <div data-i18n="Pagination &amp; Breadcrumbs">Pagination &amp; Breadcrumbs</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="ui-progress.html" class="menu-link">
+                  <a href="ui-progress.php" class="menu-link">
                     <div data-i18n="Progress">Progress</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="ui-spinners.html" class="menu-link">
+                  <a href="ui-spinners.php" class="menu-link">
                     <div data-i18n="Spinners">Spinners</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="ui-tabs-pills.html" class="menu-link">
+                  <a href="ui-tabs-pills.php" class="menu-link">
                     <div data-i18n="Tabs &amp; Pills">Tabs &amp; Pills</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="ui-toasts.html" class="menu-link">
+                  <a href="ui-toasts.php" class="menu-link">
                     <div data-i18n="Toasts">Toasts</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="ui-tooltips-popovers.html" class="menu-link">
+                  <a href="ui-tooltips-popovers.php" class="menu-link">
                     <div data-i18n="Tooltips & Popovers">Tooltips &amp; popovers</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="ui-typography.html" class="menu-link">
+                  <a href="ui-typography.php" class="menu-link">
                     <div data-i18n="Typography">Typography</div>
                   </a>
                 </li>
@@ -310,12 +310,12 @@ include('header.php');
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
+                  <a href="extended-ui-perfect-scrollbar.php" class="menu-link">
                     <div data-i18n="Perfect Scrollbar">Perfect scrollbar</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="extended-ui-text-divider.html" class="menu-link">
+                  <a href="extended-ui-text-divider.php" class="menu-link">
                     <div data-i18n="Text Divider">Text Divider</div>
                   </a>
                 </li>
@@ -323,7 +323,7 @@ include('header.php');
             </li>
 
             <li class="menu-item">
-              <a href="icons-boxicons.html" class="menu-link">
+              <a href="icons-boxicons.php" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-crown"></i>
                 <div data-i18n="Boxicons">Boxicons</div>
               </a>
@@ -339,12 +339,12 @@ include('header.php');
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="forms-basic-inputs.html" class="menu-link">
+                  <a href="forms-basic-inputs.php" class="menu-link">
                     <div data-i18n="Basic Inputs">Basic Inputs</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="forms-input-groups.html" class="menu-link">
+                  <a href="forms-input-groups.php" class="menu-link">
                     <div data-i18n="Input groups">Input groups</div>
                   </a>
                 </li>
@@ -357,12 +357,12 @@ include('header.php');
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="form-layouts-vertical.html" class="menu-link">
+                  <a href="form-layouts-vertical.php" class="menu-link">
                     <div data-i18n="Vertical Form">Vertical Form</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="form-layouts-horizontal.html" class="menu-link">
+                  <a href="form-layouts-horizontal.php" class="menu-link">
                     <div data-i18n="Horizontal Form">Horizontal Form</div>
                   </a>
                 </li>
@@ -370,7 +370,7 @@ include('header.php');
             </li>
             <!-- Tables -->
             <li class="menu-item">
-              <a href="tables-basic.html" class="menu-link">
+              <a href="tables-basic.php" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-table"></i>
                 <div data-i18n="Tables">Tables</div>
               </a>
@@ -379,7 +379,7 @@ include('header.php');
             <li class="menu-header small text-uppercase"><span class="menu-header-text">Misc</span></li>
             <li class="menu-item">
               <a
-                href="https://github.com/themeselection/sneat-html-admin-template-free/issues"
+                href="https://github.com/themeselection/sneat-php-admin-template-free/issues"
                 target="_blank"
                 class="menu-link"
               >
@@ -389,7 +389,7 @@ include('header.php');
             </li>
             <li class="menu-item">
               <a
-                href="https://themeselection.com/demo/sneat-bootstrap-html-admin-template/documentation/"
+                href="https://themeselection.com/demo/sneat-bootstrap-php-admin-template/documentation/"
                 target="_blank"
                 class="menu-link"
               >
@@ -435,11 +435,11 @@ include('header.php');
                 <li class="nav-item lh-1 me-3">
                   <a
                     class="github-button"
-                    href="https://github.com/themeselection/sneat-html-admin-template-free"
+                    href="https://github.com/themeselection/sneat-php-admin-template-free"
                     data-icon="octicon-star"
                     data-size="large"
                     data-show-count="true"
-                    aria-label="Star themeselection/sneat-html-admin-template-free on GitHub"
+                    aria-label="Star themeselection/sneat-php-admin-template-free on GitHub"
                     >Star</a
                   >
                 </li>
@@ -495,7 +495,7 @@ include('header.php');
                       <div class="dropdown-divider"></div>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="auth-login-basic.html">
+                      <a class="dropdown-item" href="auth-login-basic.php">
                         <i class="bx bx-power-off me-2"></i>
                         <span class="align-middle">Log Out</span>
                       </a>
