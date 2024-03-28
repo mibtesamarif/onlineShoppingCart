@@ -2,12 +2,8 @@
 include('header.php');
 ?>
 
-  <body>
-    <!-- Layout wrapper -->
-    <div class="layout-wrapper layout-content-navbar">
-      <div class="layout-container">
-        <!-- Menu -->
 
+<<<<<<< HEAD
         <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
           <div class="app-brand demo">
             <a href="index.php" class="app-brand-link">
@@ -508,6 +504,8 @@ include('header.php');
           </nav>
 
           <!-- / Navbar -->
+=======
+>>>>>>> a80ec350372e2dbde001b6b59248480a77919827
 
           <!-- Content wrapper -->
           <div class="content-wrapper">
