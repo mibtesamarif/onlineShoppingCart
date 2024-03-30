@@ -9,17 +9,17 @@ if(isset($_POST['login'])){
      $query->bindParam('uPassword',$userPassword);
      $query->execute();
     $user = $query->fetch(PDO::FETCH_ASSOC);
-    if($user['role_id'] ==1){
-        $_SESSION['user_id'] = $user['id'];
+    if($user['role_id'] == 1){
+        $_SESSION['admin_id'] = $user['id'];
         $_SESSION['admin_E'] = $user['email'];
-        $_SESSION['usName'] = $user['name'];
+        $_SESSION['admin_N'] = $user['name'];
         echo "<script>alert('login successfully');
-        location.assign('adminPanel\html\index.php')</script>";
+        location.assign('adminPanel/html/index.php')</script>";
     }
-    else if($user['role_id'] ==2){
+    else if($user['role_id'] == 2){
         $_SESSION['user_id'] = $user['id'];
         $_SESSION['user_E'] = $user['email'];
-        $_SESSION['usName_1'] = $user['name'];
+        $_SESSION['user_N'] = $user['name'];
         echo "<script>alert('login successfully');
         location.assign('index.php')</script>";
     }

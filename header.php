@@ -62,6 +62,18 @@
                 </ul>
               </li>
               <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+							<?php
+							if(isset($_SESSION['user_E'])){
+								?>
+                <li class="nav-item"><a class="nav-link" href="web_logout.php">Logout</a></li>
+							   <?php	
+							}
+							else{
+							?>
+              <li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
+							<?php
+							}
+							?>
             </ul>
 
             <ul class="nav-shop">
