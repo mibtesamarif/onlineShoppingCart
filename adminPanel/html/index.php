@@ -1,6 +1,7 @@
 <?php
+include('query.php');
 include('header.php');
-include('querry.php');
+
 ?>
 
   
