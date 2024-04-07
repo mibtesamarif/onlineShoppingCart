@@ -29,7 +29,7 @@
                 <img class="card-img rounded-0" src="img/blog/cat-post/cat-post-3.jpg" alt="post">
                 <div class="categories_details">
                     <div class="categories_text">
-                        <a href="single-blog.html">
+                        <a href="single-blog.php">
                             <h5>Social Life</h5>
                         </a>
                         <div class="border_line"></div>
@@ -43,7 +43,7 @@
             <img class="card-img rounded-0" src="img/blog/cat-post/cat-post-2.jpg" alt="post">
             <div class="categories_details">
               <div class="categories_text">
-                <a href="single-blog.html">
+                <a href="single-blog.php">
                     <h5>Politics</h5>
                 </a>
                 <div class="border_line"></div>
@@ -57,7 +57,7 @@
                 <img class="card-img rounded-0" src="img/blog/cat-post/cat-post-1.jpg" alt="post">
                 <div class="categories_details">
                     <div class="categories_text">
-                        <a href="single-blog.html">
+                        <a href="single-blog.php">
                             <h5>Food</h5>
                         </a>
                         <div class="border_line"></div>
@@ -114,13 +114,13 @@
                               <div class="blog_post">
                                   <img src="img/blog/main-blog/m-blog-1.jpg" alt="">
                                   <div class="blog_details">
-                                      <a href="single-blog.html">
+                                      <a href="single-blog.php">
                                           <h2>Astronomy Binoculars A Great Alternative</h2>
                                       </a>
                                       <p>MCSE boot camps have its supporters and its detractors. Some people do not understand
                                           why you should have to spend money on boot camp when you can get the MCSE study
                                           materials yourself at a fraction.</p>
-                                      <a class="button button-blog" href="single-blog.html">View More</a>
+                                      <a class="button button-blog" href="single-blog.php">View More</a>
                                   </div>
                               </div>
                           </div>
@@ -162,13 +162,13 @@
                               <div class="blog_post">
                                   <img src="img/blog/main-blog/m-blog-2.jpg" alt="">
                                   <div class="blog_details">
-                                      <a href="single-blog.html">
+                                      <a href="single-blog.php">
                                           <h2>The Basics Of Buying A Telescope</h2>
                                       </a>
                                       <p>MCSE boot camps have its supporters and its detractors. Some people do not understand
                                           why you should have to spend money on boot camp when you can get the MCSE study
                                           materials yourself at a fraction.</p>
-                                      <a href="single-blog.html" class="button button-blog">View More</a>
+                                      <a href="single-blog.php" class="button button-blog">View More</a>
                                   </div>
                               </div>
                           </div>
@@ -210,13 +210,13 @@
                               <div class="blog_post">
                                   <img src="img/blog/main-blog/m-blog-3.jpg" alt="">
                                   <div class="blog_details">
-                                      <a href="single-blog.html">
+                                      <a href="single-blog.php">
                                           <h2>The Glossary Of Telescopes</h2>
                                       </a>
                                       <p>MCSE boot camps have its supporters and its detractors. Some people do not understand
                                           why you should have to spend money on boot camp when you can get the MCSE study
                                           materials yourself at a fraction.</p>
-                                      <a href="single-blog.html" class="button button-blog">View More</a>
+                                      <a href="single-blog.php" class="button button-blog">View More</a>
                                   </div>
                               </div>
                           </div>
@@ -258,13 +258,13 @@
                               <div class="blog_post">
                                   <img src="img/blog/main-blog/m-blog-4.jpg" alt="">
                                   <div class="blog_details">
-                                      <a href="single-blog.html">
+                                      <a href="single-blog.php">
                                           <h2>The Night Sky</h2>
                                       </a>
                                       <p>MCSE boot camps have its supporters and its detractors. Some people do not understand
                                           why you should have to spend money on boot camp when you can get the MCSE study
                                           materials yourself at a fraction.</p>
-                                      <a href="single-blog.html" class="button button-blog">View More</a>
+                                      <a href="single-blog.php" class="button button-blog">View More</a>
                                   </div>
                               </div>
                           </div>
@@ -306,13 +306,13 @@
                               <div class="blog_post">
                                   <img src="img/blog/main-blog/m-blog-5.jpg" alt="">
                                   <div class="blog_details">
-                                      <a href="single-blog.html">
+                                      <a href="single-blog.php">
                                           <h2>Telescopes 101</h2>
                                       </a>
                                       <p>MCSE boot camps have its supporters and its detractors. Some people do not understand
                                           why you should have to spend money on boot camp when you can get the MCSE study
                                           materials yourself at a fraction.</p>
-                                      <a href="single-blog.html" class="button button-blog">View More</a>
+                                      <a href="single-blog.php" class="button button-blog">View More</a>
                                   </div>
                               </div>
                           </div>
@@ -395,7 +395,7 @@
                           <div class="media post_item">
                               <img src="img/blog/popular-post/post1.jpg" alt="post">
                               <div class="media-body">
-                                  <a href="single-blog.html">
+                                  <a href="single-blog.php">
                                       <h3>Space The Final Frontier</h3>
                                   </a>
                                   <p>02 Hours ago</p>
@@ -404,7 +404,7 @@
                           <div class="media post_item">
                               <img src="img/blog/popular-post/post2.jpg" alt="post">
                               <div class="media-body">
-                                  <a href="single-blog.html">
+                                  <a href="single-blog.php">
                                       <h3>The Amazing Hubble</h3>
                                   </a>
                                   <p>02 Hours ago</p>
@@ -413,7 +413,7 @@
                           <div class="media post_item">
                               <img src="img/blog/popular-post/post3.jpg" alt="post">
                               <div class="media-body">
-                                  <a href="single-blog.html">
+                                  <a href="single-blog.php">
                                       <h3>Astronomy Or Astrology</h3>
                                   </a>
                                   <p>03 Hours ago</p>
@@ -422,7 +422,7 @@
                           <div class="media post_item">
                               <img src="img/blog/popular-post/post4.jpg" alt="post">
                               <div class="media-body">
-                                  <a href="single-blog.html">
+                                  <a href="single-blog.php">
                                       <h3>Asteroids telescope</h3>
                                   </a>
                                   <p>01 Hours ago</p>

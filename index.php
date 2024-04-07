@@ -63,7 +63,7 @@ include('header.php');
               </div>
               <div class="card-body">
                 <p>Accessories</p>
-                <h4 class="card-product__title"><a href="single-product.html">Quartz Belt Watch</a></h4>
+                <h4 class="card-product__title"><a href="single-product.php">Quartz Belt Watch</a></h4>
                 <p class="card-product__price">$150.00</p>
               </div>
             </div>
@@ -80,7 +80,7 @@ include('header.php');
               </div>
               <div class="card-body">
                 <p>Beauty</p>
-                <h4 class="card-product__title"><a href="single-product.html">Women Freshwash</a></h4>
+                <h4 class="card-product__title"><a href="single-product.php">Women Freshwash</a></h4>
                 <p class="card-product__price">$150.00</p>
               </div>
             </div>
@@ -97,7 +97,7 @@ include('header.php');
               </div>
               <div class="card-body">
                 <p>Decor</p>
-                <h4 class="card-product__title"><a href="single-product.html">Room Flash Light</a></h4>
+                <h4 class="card-product__title"><a href="single-product.php">Room Flash Light</a></h4>
                 <p class="card-product__price">$150.00</p>
               </div>
             </div>
@@ -114,7 +114,7 @@ include('header.php');
               </div>
               <div class="card-body">
                 <p>Decor</p>
-                <h4 class="card-product__title"><a href="single-product.html">Room Flash Light</a></h4>
+                <h4 class="card-product__title"><a href="single-product.php">Room Flash Light</a></h4>
                 <p class="card-product__price">$150.00</p>
               </div>
             </div>
@@ -131,7 +131,7 @@ include('header.php');
               </div>
               <div class="card-body">
                 <p>Accessories</p>
-                <h4 class="card-product__title"><a href="single-product.html">Man Office Bag</a></h4>
+                <h4 class="card-product__title"><a href="single-product.php">Man Office Bag</a></h4>
                 <p class="card-product__price">$150.00</p>
               </div>
             </div>
@@ -148,7 +148,7 @@ include('header.php');
               </div>
               <div class="card-body">
                 <p>Kids Toy</p>
-                <h4 class="card-product__title"><a href="single-product.html">Charging Car</a></h4>
+                <h4 class="card-product__title"><a href="single-product.php">Charging Car</a></h4>
                 <p class="card-product__price">$150.00</p>
               </div>
             </div>
@@ -165,7 +165,7 @@ include('header.php');
               </div>
               <div class="card-body">
                 <p>Accessories</p>
-                <h4 class="card-product__title"><a href="single-product.html">Blutooth Speaker</a></h4>
+                <h4 class="card-product__title"><a href="single-product.php">Blutooth Speaker</a></h4>
                 <p class="card-product__price">$150.00</p>
               </div> 
             </div>
@@ -229,7 +229,7 @@ include('header.php');
             </div>
             <div class="card-body">
               <p>Accessories</p>
-              <h4 class="card-product__title"><a href="single-product.html">Quartz Belt Watch</a></h4>
+              <h4 class="card-product__title"><a href="single-product.php">Quartz Belt Watch</a></h4>
               <p class="card-product__price">$150.00</p>
             </div>
           </div>
@@ -245,7 +245,7 @@ include('header.php');
             </div>
             <div class="card-body">
               <p>Beauty</p>
-              <h4 class="card-product__title"><a href="single-product.html">Women Freshwash</a></h4>
+              <h4 class="card-product__title"><a href="single-product.php">Women Freshwash</a></h4>
               <p class="card-product__price">$150.00</p>
             </div>
           </div>
@@ -261,7 +261,7 @@ include('header.php');
             </div>
             <div class="card-body">
               <p>Decor</p>
-              <h4 class="card-product__title"><a href="single-product.html">Room Flash Light</a></h4>
+              <h4 class="card-product__title"><a href="single-product.php">Room Flash Light</a></h4>
               <p class="card-product__price">$150.00</p>
             </div>
           </div>
@@ -277,7 +277,7 @@ include('header.php');
             </div>
             <div class="card-body">
               <p>Decor</p>
-              <h4 class="card-product__title"><a href="single-product.html">Room Flash Light</a></h4>
+              <h4 class="card-product__title"><a href="single-product.php">Room Flash Light</a></h4>
               <p class="card-product__price">$150.00</p>
             </div>
           </div>
@@ -293,7 +293,7 @@ include('header.php');
             </div>
             <div class="card-body">
               <p>Accessories</p>
-              <h4 class="card-product__title"><a href="single-product.html">Quartz Belt Watch</a></h4>
+              <h4 class="card-product__title"><a href="single-product.php">Quartz Belt Watch</a></h4>
               <p class="card-product__price">$150.00</p>
             </div>
           </div>
@@ -309,7 +309,7 @@ include('header.php');
             </div>
             <div class="card-body">
               <p>Beauty</p>
-              <h4 class="card-product__title"><a href="single-product.html">Women Freshwash</a></h4>
+              <h4 class="card-product__title"><a href="single-product.php">Women Freshwash</a></h4>
               <p class="card-product__price">$150.00</p>
             </div>
           </div>
@@ -325,7 +325,7 @@ include('header.php');
             </div>
             <div class="card-body">
               <p>Decor</p>
-              <h4 class="card-product__title"><a href="single-product.html">Room Flash Light</a></h4>
+              <h4 class="card-product__title"><a href="single-product.php">Room Flash Light</a></h4>
               <p class="card-product__price">$150.00</p>
             </div>
           </div>
@@ -341,7 +341,7 @@ include('header.php');
             </div>
             <div class="card-body">
               <p>Decor</p>
-              <h4 class="card-product__title"><a href="single-product.html">Room Flash Light</a></h4>
+              <h4 class="card-product__title"><a href="single-product.php">Room Flash Light</a></h4>
               <p class="card-product__price">$150.00</p>
             </div>
           </div>
@@ -369,7 +369,7 @@ include('header.php');
                   <li><a href="#">By Admin</a></li>
                   <li><a href="#"><i class="ti-comments-smiley"></i> 2 Comments</a></li>
                 </ul>
-                <h4 class="card-blog__title"><a href="single-blog.html">The Richland Center Shooping News and weekly shooper</a></h4>
+                <h4 class="card-blog__title"><a href="single-blog.php">The Richland Center Shooping News and weekly shooper</a></h4>
                 <p>Let one fifth i bring fly to divided face for bearing divide unto seed. Winged divided light Forth.</p>
                 <a class="card-blog__link" href="#">Read More <i class="ti-arrow-right"></i></a>
               </div>
@@ -386,7 +386,7 @@ include('header.php');
                   <li><a href="#">By Admin</a></li>
                   <li><a href="#"><i class="ti-comments-smiley"></i> 2 Comments</a></li>
                 </ul>
-                <h4 class="card-blog__title"><a href="single-blog.html">The Shopping News also offers top-quality printing services</a></h4>
+                <h4 class="card-blog__title"><a href="single-blog.php">The Shopping News also offers top-quality printing services</a></h4>
                 <p>Let one fifth i bring fly to divided face for bearing divide unto seed. Winged divided light Forth.</p>
                 <a class="card-blog__link" href="#">Read More <i class="ti-arrow-right"></i></a>
               </div>
@@ -403,7 +403,7 @@ include('header.php');
                   <li><a href="#">By Admin</a></li>
                   <li><a href="#"><i class="ti-comments-smiley"></i> 2 Comments</a></li>
                 </ul>
-                <h4 class="card-blog__title"><a href="single-blog.html">Professional design staff and efficient equipment you’ll find we offer</a></h4>
+                <h4 class="card-blog__title"><a href="single-blog.php">Professional design staff and efficient equipment you’ll find we offer</a></h4>
                 <p>Let one fifth i bring fly to divided face for bearing divide unto seed. Winged divided light Forth.</p>
                 <a class="card-blog__link" href="#">Read More <i class="ti-arrow-right"></i></a>
               </div>

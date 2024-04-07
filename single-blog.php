@@ -348,7 +348,7 @@
 													<div class="media post_item">
 															<img src="img/blog/popular-post/post1.jpg" alt="post">
 															<div class="media-body">
-																	<a href="blog-details.html">
+																	<a href="blog-details.php">
 																			<h3>Space The Final Frontier</h3>
 																	</a>
 																	<p>02 Hours ago</p>
@@ -357,7 +357,7 @@
 													<div class="media post_item">
 															<img src="img/blog/popular-post/post2.jpg" alt="post">
 															<div class="media-body">
-																	<a href="blog-details.html">
+																	<a href="blog-details.php">
 																			<h3>The Amazing Hubble</h3>
 																	</a>
 																	<p>02 Hours ago</p>
@@ -366,7 +366,7 @@
 													<div class="media post_item">
 															<img src="img/blog/popular-post/post3.jpg" alt="post">
 															<div class="media-body">
-																	<a href="blog-details.html">
+																	<a href="blog-details.php">
 																			<h3>Astronomy Or Astrology</h3>
 																	</a>
 																	<p>03 Hours ago</p>
@@ -375,7 +375,7 @@
 													<div class="media post_item">
 															<img src="img/blog/popular-post/post4.jpg" alt="post">
 															<div class="media-body">
-																	<a href="blog-details.html">
+																	<a href="blog-details.php">
 																			<h3>Asteroids telescope</h3>
 																	</a>
 																	<p>01 Hours ago</p>

@@ -29,7 +29,7 @@
 						<div class="hover">
 							<h4>Already have an account?</h4>
 							<p>There are advances being made in science and technology everyday, and a good example of this is the</p>
-							<a class="button button-account" href="login.html">Login Now</a>
+							<a class="button button-account" href="login.php">Login Now</a>
 						</div>
 					</div>
 				</div>
