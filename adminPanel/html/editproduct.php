@@ -5,7 +5,7 @@ include('header.php');
 <?php
 if(isset($_GET['id'])){
     $id = $_GET['id'];
-    $query = $pdo->prepare("select products.*,categories.name as cName,categories.id as catId from products inner join categories on products.c_id = categories.id where products.id = :pId");
+    $query = $pdo->prepare("select product.*,category.name as cName,category.id as catId from product inner join category on product.c_id = category.id where product.id = :pId");
     $query->bindparam('pId',$id);
     $query->execute();
     $product = $query->fetch(PDO::FETCH_ASSOC);
@@ -15,8 +15,8 @@ if(isset($_GET['id'])){
 
             <!-- Blank Start -->
             <div class="container-fluid pt-4 px-4">
-                <div class="row vh-100 bg-light rounded align-items-center justify-content-center mx-0">
-                <div class="col-md-6 ">
+                <div class="row bg-light rounded align-items-center justify-content-center mx-0">
+                <div class="col-md-10">
                     <h3> update Product</h3>
                     
                     <form action="" method="post" enctype="multipart/form-data">
@@ -45,7 +45,7 @@ if(isset($_GET['id'])){
                           <select class="form-control" name="cId" id="">
                             <option value="<?php echo $product['catId']?>"><?php echo $product['cName']?></option>
                             <?php
-                            $query = $pdo->prepare("select * from categories where name != :cName");
+                            $query = $pdo->prepare("select * from category where name != :cName");
                             $query->bindparam('cName',$product['cName']);
                             $query->execute();
                             $allcat = $query->fetchAll(PDO::FETCH_ASSOC);
@@ -68,6 +68,8 @@ if(isset($_GET['id'])){
                         <button class="btn btn-primary mt-3" name="updateProduct"
                         type="submit">update Product</button>
                     </form>
+                    echo "<script>alert('category added successfully');
+                             location.assign('viewproduct.php')</script>";
                     </div>
                 </div>
             </div>

@@ -39,7 +39,7 @@ if(isset($_POST['updateCategory'])){
       $cImageName = $_FILES['cImage']['name'];
       $cImageTmpName = $_FILES['cImage']['tmp_name'];
       $extension = pathinfo($cImageName,PATHINFO_EXTENSION);
-      $destination = "img/".$cImageName;
+      $destination = "assets/img/".$cImageName;
       if($extension == "jpg" || $extension == "png" || $extension == "jpeg" || $extension == "webp" || $extension == "jfif"){
             if(move_uploaded_file($cImageTmpName,$destination)){
              $query =$pdo->prepare("update category set name = :cName , des = :cDes 
@@ -79,7 +79,7 @@ if(isset($_POST['addProduct'])){
       $pImageName = $_FILES['pImage']['name'];
       $pImageTmpName = $_FILES['pImage']['tmp_name'];
       $extension = pathinfo($pImageName,PATHINFO_EXTENSION);
-      $destination = "img/".$pImageName;
+      $destination = "../assets/img/".$pImageName;
       if($extension == "jpg" || $extension == "png" || $extension == "jpeg" || $extension == "webp" || $extension == "jfif"){
             if(move_uploaded_file($pImageTmpName,$destination)){
                         $query = $pdo->prepare("insert into product(name , des, price , qty , c_id , image) values(:pName , :pDes, :pPrice , :pQty ,:cId , :pImage)");

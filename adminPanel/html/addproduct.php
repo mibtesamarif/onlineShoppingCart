@@ -39,7 +39,7 @@ include('header.php');
                           <select class="form-control" name="cId" id="">
                             <option>Select category</option>
                             <?php
-                            $query = $pdo->query("select * from categories");
+                            $query = $pdo->query("select * from category");
                             $allcategories = $query->fetchAll(PDO::FETCH_ASSOC);
                             foreach($allcategories as $key => $cat){
                              ?>

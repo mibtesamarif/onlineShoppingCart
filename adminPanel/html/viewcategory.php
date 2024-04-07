@@ -6,8 +6,8 @@ include('header.php');
 
             <!-- Blank Start -->
             <div class="container-fluid pt-4 px-4">
-                <div class="row vh-100 bg-light rounded align-items-center justify-content-center mx-0">
-                <div class="col-md-6 ">
+                <div class="row bg-light rounded align-items-center justify-content-center mx-0">
+                <div class="col-md-10 ">
                     <h3> This is category page</h3>
                     
                     <table class="table">
@@ -31,7 +31,7 @@ include('header.php');
                             <tr>
                                 <td scope="row"><?php echo $cat['name']?></td>
                                 <td><?php echo $cat['des']?></td>
-                                <td><img height="100px" src="img/<?php echo $cat['image']?>" alt=""></td>
+                                <td><img height="100px" src="../assets/img/<?php echo $cat['image']?>" alt="<?php echo $cat['image']?>"></td>
                                 <td><a class = "btn btn-outline-info" href="editcategory.php?id=<?php echo $cat['id']?>">Edit</a></td>
                                 <td><a class ="btn btn-outline-danger" href="?uid=<?php echo $cat['id']?>">Delete</a></td>
 

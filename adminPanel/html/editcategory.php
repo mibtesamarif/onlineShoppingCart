@@ -5,7 +5,7 @@ include('header.php');
 <?php
 if(isset($_GET['id'])){
     $id = $_GET['id'];
-    $query = $pdo->prepare("select * from categories where id = :id");
+    $query = $pdo->prepare("select * from category where id = :id");
     $query->bindparam('id',$id);
     $query->execute();
     $cat = $query->fetch(PDO::FETCH_ASSOC);
