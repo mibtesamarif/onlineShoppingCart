@@ -22,7 +22,7 @@
 
 
 	<!-- ================ category section start ================= -->		  
-  <section class="section-margin--small mb-5">
+  <!-- <section class="section-margin--small mb-5">
     <div class="container">
       <div class="row">
         <div class="col-xl-3 col-lg-4 col-md-5">
@@ -89,7 +89,7 @@
           </div>
         </div>
         <div class="col-xl-9 col-lg-8 col-md-7">
-          <!-- Start Filter Bar -->
+          Start Filter Bar
           <div class="filter-bar d-flex flex-wrap align-items-center">
             <div class="sorting">
               <select>
@@ -114,8 +114,8 @@
               </div>
             </div>
           </div>
-          <!-- End Filter Bar -->
-          <!-- Start Best Seller -->
+          End Filter Bar
+          Start Best Seller
           <section class="lattest-product-area pb-40 category-list">
             <div class="row">
               <div class="col-md-6 col-lg-4">
@@ -273,11 +273,11 @@
               </div>
             </div>
           </section>
-          <!-- End Best Seller -->
+          End Best Seller
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 	<!-- ================ category section end ================= -->		  
 
 	<!-- ================ top product area start ================= -->	
